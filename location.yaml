@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: BOTPersonalLending-PROD-ZA-Users team template locator.
+  description: This the BOTPersonalLending-PROD-ZA-Users team template locator.
+spec:
+  targets:
+    - ./templates/*/*.yaml
